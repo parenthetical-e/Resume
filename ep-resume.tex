@@ -1,0 +1,119 @@
+\documentclass[margin,line]{res}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[unicode=true,
+    colorlinks=true,
+    linkcolor=blue]{hyperref}
+\hypersetup{urlcolor=BlueViolet} % Does not apply color to href's
+\hypersetup{colorlinks,urlcolor=BlueViolet} % href's are correct, but navigation
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+    \begin{list}{\ding{113}}{%
+        \setlength{\itemsep}{0in}
+        \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+        \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+        \setlength{\leftmargin}{0.17in}}}{
+    \end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\pagestyle{plain} 
+
+% -------------------------------------------------------------------------
+\begin{document}
+\newcommand{\link}[1]{\texttt{#1}}
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+\name{Erik J. Peterson, PhD\vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+
+% Info
+\begin{tabular}{@{}p{2in}p{4in}}
+{\it E-mail:}  erik.exists@gmail.com   & {\it Webpage:} \href{http://robotpuggle.com}{http://robotpuggle.com} \\
+\end{tabular}
+
+\section{\sc About me}
+I am interested in curiosity as a mathematical idea, for use in machine learning and to predict human behavior. I am also interested in applied work as well. Curiosity and reinforcement learning in robots, drones, and design. Academically I study computation in the brain’s other electrically active cells, astrocytes. 
+
+\section{\sc Recent Experience}
+\vspace{-.1cm}
+{\bf Carnegie Mellon University} - Pittsburgh, PA \\
+{\em Research Fellow (Research Scientist)} \hfill {\bf 2018 - Present}\\
+Machine learning. Curiosity learning. Reinforcement learning. Astrocyte computation. Deep neural networks. Game theory.
+
+\vspace{-.1cm}
+{\bf Kernel, LLC} - Los Angeles, CA\\
+{\em Senior Research Scientist} \hfill {\bf 2017 - 2018}\\
+Technical lead building a \emph{real-time} system for complex spatio-temporal field shaping in deep brain stimulation. Biophysical modelling. Deep neural networks.
+
+\vspace{-.1cm}
+{\bf U.C. San Diego} - San Diego, CA\\
+{\em Postdoctoral Fellow} \hfill {\bf 2014 - 2017}\\
+Biophysical modelling of neural oscillations. Information and compression theory. Machine-learning tools to analyze electrophysiological time-series data. Software development.
+
+
+\section{\sc Education}
+{\bf Colorado State University}, Fort Collins, CO\\
+%{\em Department of Statistics}
+\vspace*{-.15in}
+\begin{list1}
+    \tightlist
+    \item[] Ph.D, Psychology \hfill {\bf 2012}
+    \item[] M.S., Psychology \hfill {\bf 2009}
+\end{list1}
+
+\vspace*{-.1in}
+{\bf California Polytechnic State University}, San Luis Obispo, CA\\
+%{\em Department of Mathematics and Statistics}
+\vspace*{-.15in}
+\begin{list1}
+    \tightlist
+    \item[] B.S., Chemistry and Biochemistry; Minor, Philosophy \hfill {\bf May 2004}
+\end{list1}
+
+
+\section{\sc Programming}
+\begin{itemize}
+      \tightlist
+      \item pytorch
+\end{itemize}
+
+
+
+\section{\sc Projects}
+% TODO
+
+\section{\sc Public Talks \& Press}
+\emph{Brain's `Background Noise' May Hold Clues to Persistent Mysteries}, Quanta Magazine, 2021. \\
+\emph{Build Your Own Brainwaves}, Nerd Nite, Los Angeles, Feb 2018. \\
+\emph{Conflicted Data Science}, Open San Diego, San Diego, Feb, 2016. \\
+\emph{In Theory You're Paying Attention}, Ignite, San Diego, Nov 2016. \\
+
+    
+\section{\sc Select publications}
+Donoghue T*, Haller M*, \textbf{Peterson EJ}*, et al, Parameterizing Neural Power Spectra into Periodic and Aperiodic Components, \emph{Nature Neuroscience} 23 1655-1665 (2020). [*]: Co-first. 
+\\ 
+\vspace{-.3cm} 
+\\
+\textbf{Peterson EJ} \& Verstynen T, The Curiosity Trick, \emph{bioRxiv} 671362v9 (2021). 
+
+%=========== Footer ================
+\end{resume}
+\end{document}
+
