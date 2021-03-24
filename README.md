@@ -1,7 +1,7 @@
 # Resume
 The latex and markdown files for Erik Peterson's resume
 
-A pdf is available [here](https://github.com/parenthetical-e/Resume/blob/master/ep-resume.pdf).
+A pdf is available [here](https://github.com/parenthetical-e/Resume/blob/main/ep-resume.pdf).
 
 # Usage
 Compile with `make pdf`
